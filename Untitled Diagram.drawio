@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T03:20:41.444Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="gUiozI5eF3JR8t24VYb1" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T03:20:53.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="n8uKQSkVrHb1QTmIaEwI" version="15.6.5" type="github">
   <diagram id="rg0j0zLOtm0iLNIaMDEO" name="Page-1">
     <mxGraphModel dx="1561" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -266,14 +266,13 @@
         <mxCell id="PrEL5BsYyGC61kOJYBMb-103" value="softmax, align seq_len" style="whiteSpace=wrap;html=1;rounded=1;fontSize=10;labelBackgroundColor=default;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="137.5" y="1090" width="115" height="17.5" as="geometry" />
         </mxCell>
-        <mxCell id="PrEL5BsYyGC61kOJYBMb-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=10;fontColor=default;strokeColor=default;" edge="1" parent="1" source="PrEL5BsYyGC61kOJYBMb-105" target="PrEL5BsYyGC61kOJYBMb-109">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PrEL5BsYyGC61kOJYBMb-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=10;fontColor=default;strokeColor=default;" edge="1" parent="1" source="PrEL5BsYyGC61kOJYBMb-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="1190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PrEL5BsYyGC61kOJYBMb-105" value="Mat mul" style="whiteSpace=wrap;html=1;rounded=1;fontSize=10;labelBackgroundColor=default;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="137.5" y="1120" width="115" height="17.5" as="geometry" />
-        </mxCell>
-        <mxCell id="PrEL5BsYyGC61kOJYBMb-109" value="" style="whiteSpace=wrap;html=1;rounded=1;fontSize=10;labelBackgroundColor=rgba(255, 255, 255, 1);" vertex="1" parent="1">
-          <mxGeometry x="135" y="1196.25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PrEL5BsYyGC61kOJYBMb-111" value="[B, seq_len, features]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=10;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="107" y="847" width="110" height="20" as="geometry" />
